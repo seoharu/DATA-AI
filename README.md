@@ -28,7 +28,7 @@
          - 분석 코드 : face_mask_detection_VGG19.ipynb
       2. using FasterRCNN
          - 분석 코드 : face_mask_detection_faster_R_CNN.ipynb
-   02. covid19 detection
+   02. covid19 detection 
        - 사용 데이터 : https://www.kaggle.com/competitions/siim-covid19-detection/overview 
        - using FasterRCNN
           - 분석 코드1. covid19_detection.ipynb
