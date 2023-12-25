@@ -22,13 +22,13 @@
           - hyper parameter 최적화 : GridSearchCV
           - 데이터 분류 : KNN + SVM 구현
  2. 딥러닝 분석
-   01. face mask detection
-      - 사용 데이터 : https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
-      1. using VGG19
-         - 분석 코드 : face_mask_detection_VGG19.ipynb
-      2. using FasterRCNN
-         - 분석 코드 : face_mask_detection_faster_R_CNN.ipynb
-   02. covid19 detection 
+    01. face mask detection
+       - 사용 데이터 : https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
+       1. using VGG19
+          - 분석 코드 : face_mask_detection_VGG19.ipynb
+       2. using FasterRCNN
+          - 분석 코드 : face_mask_detection_faster_R_CNN.ipynb
+    02. covid19 detection 
        - 사용 데이터 : https://www.kaggle.com/competitions/siim-covid19-detection/overview 
        - using FasterRCNN
           - 분석 코드1. covid19_detection.ipynb
