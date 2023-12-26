@@ -39,5 +39,19 @@
            - 분석 코드3. covid19_detection_fasterRCNN.ipynb
         - 실습 내용 
            - EDA to prprocessing
+                - check & visualize the relation
+                - data analysis
+                - visualize X-ray with bbox
+                - resize the image
            - Basic Modeling
+                - image pre-classification with data generator
+                     : classify image id by opcity types
+                     : sort image files
+                     : data generation, split train/valid set
+                - modeling : basic multiclass classifier
+                - improving performance with an appropriate form 
            - 추가 : 불투명도 감지
+                  - extraction position information & all box's information
+                  - visualize resized image with boxes
+                  - build function for reuse
+             
