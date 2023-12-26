@@ -13,7 +13,7 @@
           - pairplot
           - 데이터 가공 후 예측
             : 데이터 불균형 처리 위한 가공 방법 - SMOTE
-   02. hear_disease
+   02. heart_disease
       - 사용 데이터 : Heart Disease Dataset on #kaggle via @KaggleDatasets (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
       - 분석 코드 : heart_disease_의료데이터_분석.ipynb
       - 실습 내용
