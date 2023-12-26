@@ -54,4 +54,4 @@
                   - extraction position information & all box's information
                   - visualize resized image with boxes
                   - build function for reuse
-             
+         * 데이터 용량 커 (110G 넘음) error 발생
