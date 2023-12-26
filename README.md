@@ -22,14 +22,22 @@
           - hyper parameter 최적화 : GridSearchCV
           - 데이터 분류 : KNN + SVM 구현
  2. 딥러닝 분석
-    01. face mask detection
+    01. face mask detection : 마스크 착용 여부 탐지 및 분류 
         - 사용 데이터 : https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
         1. using VGG19
            - 분석 코드 : face_mask_detection_VGG19.ipynb
         2. using FasterRCNN
            - 분석 코드 : face_mask_detection_faster_R_CNN.ipynb
-    02. covid19 detection 
+           - 실습 내용
+                - (중간 코드 오류) 'TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first' 오류 발생함
+                  ㄴ 텐서가 GPU에 있는지 확인 -> 딕셔너리 내에서 텐서 추출, CPU로 텐서 이동시킴 + 이미지 텐서도 이동시키고 NumPy 배열로 변환해 해결
+    02. covid19 detection : 흉부 방사선 사진에서 코로나19 탐지 및 분류 
         - 사용 데이터 : https://www.kaggle.com/competitions/siim-covid19-detection/overview 
         - using FasterRCNN
            - 분석 코드1. covid19_detection.ipynb
            - 분석 코드2. covid19_detection2.ipynb
+           - 분석 코드3. covid19_detection_fasterRCNN.ipynb
+        - 실습 내용 
+           - EDA to prprocessing
+           - Basic Modeling
+           - 추가 : 불투명도 감지
