@@ -31,11 +31,25 @@
            - 실습 내용
                 - (중간 코드 오류) 'TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first' 오류 발생함
                   ㄴ 텐서가 GPU에 있는지 확인 -> 딕셔너리 내에서 텐서 추출, CPU로 텐서 이동시킴 + 이미지 텐서도 이동시키고 NumPy 배열로 변환해 해결
-    02. covid19 detection : 흉부 방사선 사진에서 코로나19 탐지 및 분류 
-        - 사용 데이터 : https://www.kaggle.com/competitions/siim-covid19-detection/overview 
+    02. covid19 detection : 흉부 방사선 사진에서 코로나19 탐지 및 분류        
         - using FasterRCNN
+          1. 사용 데이터
+             : SIIM-FISABIO-RSNA COVID-19 Detection (Identify and localize COVID-19 abnormalities on chest radiographs) https://www.kaggle.com/competitions/siim-covid19-detection/overview
+             - test
+             - train
+             - sample_submission.csv
+             - train_image_level.csv
+             - train_study_level.csv
            - 분석 코드1. covid19_detection.ipynb
            - 분석 코드2. covid19_detection2.ipynb
+          2. 추가 사용 데이터
+             : SIIM COVID-19: Resized to 25
+                - test
+                - train
+                - meta.csv
+             : SIIM COVID19 Updated Train
+               - updated_sample_submission.csv
+               - updated_train_labels.csv
            - 분석 코드3. covid19_detection_fasterRCNN.ipynb
         - 실습 내용 
            - EDA to prprocessing
